@@ -41,7 +41,7 @@
      * PreLoader
      * =====================================***/
     $(window).on('load', function() {
-        $('.preloader').delay('500').fadeOut(2000);
+        $('.preloader').delay('0').fadeOut(0);
     });
 
 
