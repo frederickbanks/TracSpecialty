@@ -155,7 +155,7 @@ h6 {
 p {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 20px;
     color: #38373c;
 }
 
@@ -168,7 +168,7 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 30px;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -1276,7 +1276,7 @@ section.about_area img.about_shape {
 
 .service_style_2_area p {
     font-size: 24px;
-    color: #87868a;
+    color: #38373c;
     line-height: 40px;
     padding: 0 50px;
     font-weight: 400;
@@ -1346,7 +1346,7 @@ section.about_area img.about_shape {
     line-height: 30px;
     margin: 30px 0 40px 0;
     font-weight: 400;
-    color: #87868a;
+    color: #38373c;
 }
 
 .service_details_left p.extra_mr {
@@ -1382,7 +1382,7 @@ section.about_area img.about_shape {
 
 .service_details_left ul li {
     line-height: 40px;
-    color: #87868a;
+    color: #38373c;
     font-weight: 400;
 }
 
@@ -1453,7 +1453,7 @@ section.about_area img.about_shape {
     -ms-flex: 1;
     flex: 1;
     background-color: #f1f1f1;
-    padding: 40px 50px;
+    padding: 40px 30px;
     border-right: 1px solid #ffffff;
     border-left: 1px solid #ffffff;
     -webkit-transition: .3s;
@@ -1514,6 +1514,7 @@ section.about_area img.about_shape {
     padding: 38px 50px;
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
+    
 }
 
 .service_category ul li {
