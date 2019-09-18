@@ -156,7 +156,7 @@ p {
     margin: 0;
     padding: 0;
     font-size: 16px;
-    color: #87868a;
+    color: #38373c;
 }
 
 body {
@@ -597,8 +597,6 @@ body {
     padding-top: 224px;
 }
 
-
-
 .breadcrumb_section .breadcrumb {
     background: none;
     margin: 0 0 15px 0;
@@ -925,7 +923,7 @@ body {
 }
 
 .about_style_3_details p {
-    color: #87868a;
+    color: #38373c;
     font-weight: 400;
 }
 
@@ -2102,7 +2100,7 @@ section.about_area img.about_shape {
 .about_service_right ul li {
     display: block;
     line-height: 44px;
-    color: #87868a;
+    color: #38373c;
     font-size: 18px;
     font-weight: 400;
 }
