@@ -8,7 +8,6 @@
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,600i,700" rel="stylesheet">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon.png">
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -91,8 +90,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html" class="logo">
-                        <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+                    <a href="index.html">
+                        <img src="assets/images/second_trac_logo.jpg" id="second_trac_logo" alt="Logo">
                     </a>
                 </div>
                 <!--end .col-md-2-->
@@ -103,7 +102,15 @@
                                 <a href="index.html">Home </a>
                             </li>
                             <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Services</a></li>
+                            <li><a href="service.html">Services <i class="fa fa-angle-down"></i></a> <span
+                                    class="responsive_menu"><i class="fa fa-angle-down"></i></span>
+                                <ul class="dropdown-menu dropdown-menu-responsive2">
+                                    <li><a href="Cooling.html">Cooling </a></li>
+                                    <li><a href="Heating.html">Heating </a></li>
+                                    <li><a href="Refrigeration.html">Refrigeration </a></li>
+                                    <li><a href="Ventilation.html">Ventilation </a></li>
+                                </ul>
+                            </li>
                             <li>
                                 <!-- <a href="blog.html">Blog <i class="fa fa-angle-down"></i></a> <span class="responsive_menu"><i class="fa fa-angle-down"></i></span>
                                 <ul class="dropdown-menu dropdown-menu-responsive2">
@@ -155,7 +162,7 @@
                 <div class="col-md-8">
                     <div class="service_details_left">
                         <img src="assets/images/services/service-details.jpg" alt="Service Details Image">
-                        <h1>Air Conditioning Services and Repair</h1>
+                        <h1>Cooling Services and Repair</h1>
                         <p>When it comes to meeting your cooling demands, nothing is more important than choosing and
                             maintaining the right air conditioning system for your space. Whether you want to know more
                             about efficient cooling systems or need to take care of repairs for your current system,
@@ -204,7 +211,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a id="heating-service-tab"  href="Heating.html">
+                                    <a id="heating-service-tab" href="Heating.html">
                                         <div class="service_center_left">
                                             <i class="icon-fire"></i>
                                             <span>Heating Services</span>
@@ -262,7 +269,7 @@
                         <div class="service_details_sv_cnt text-center service_class_remove mb-30">
                             <ul class="nav nav-tabs">
                                 <li>
-                                    <a id="other-service-tab"   href="Ventilation.html">
+                                    <a id="other-service-tab" href="Ventilation.html">
                                         <div class="service_center_left">
                                             <i class="icon-ac"></i>
                                             <span>Ventilation Services</span>
@@ -270,7 +277,7 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a id="commercial-service-tab"  href="Refrigeration.html">
+                                    <a id="commercial-service-tab" href="Refrigeration.html">
                                         <div class="service_center_left">
                                             <i class="icon-building"></i>
                                             <span>Refrigeration Services</span>
@@ -284,8 +291,8 @@
                                 aria-labelledby="cooling-service-tab">
                                 <div class="service_details_contact">
                                     <span class="icon-support"></span>
-                                    <h2><span>Contact Us </span> <a href="tel:+1-757-827-9446">
-                                        </a>(757)-827-9446</h2>
+                                    <h3><span>Contact Us </span> <a href="tel:+1-757-827-9446">
+                                        </a>(757)-827-9446</h3>
                                 </div><!-- end service_details_contact -->
                             </div>
 

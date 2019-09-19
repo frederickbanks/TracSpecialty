@@ -8,7 +8,6 @@
     <!--Google font-->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600,600i,700" rel="stylesheet">
     <!--favicon-->
-    <link rel="icon" href="assets/images/favicon.png">
     <!--stylesheet-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
@@ -90,8 +89,8 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html" class="logo">
-                        <!-- <img src="assets/images/logo.png" alt="Logo"> -->
+                    <a href="index.html">
+                        <img src="assets/images/second_trac_logo.jpg" id="second_trac_logo" alt="Logo">
                     </a>
                 </div>
                 <!--end .col-md-2-->
@@ -102,7 +101,15 @@
                                 <a href="index.html">Home </a>
                             </li>
                             <li><a href="about.html">About</a></li>
-                            <li><a href="service.html">Services</a></li>
+                            <li><a href="service.html">Services <i class="fa fa-angle-down"></i></a> <span
+                                    class="responsive_menu"><i class="fa fa-angle-down"></i></span>
+                                <ul class="dropdown-menu dropdown-menu-responsive2">
+                                    <li><a href="Cooling.html">Cooling </a></li>
+                                    <li><a href="Heating.html">Heating </a></li>
+                                    <li><a href="Refrigeration.html">Refrigeration </a></li>
+                                    <li><a href="Ventilation.html">Ventilation </a></li>
+                                </ul>
+                            </li>
                             <li>
                                 <!-- <a href="blog.html">Blog <i class="fa fa-angle-down"></i></a> <span class="responsive_menu"><i class="fa fa-angle-down"></i></span>
                                 <ul class="dropdown-menu dropdown-menu-responsive2">
@@ -137,7 +144,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p><span class="subtitle_number">-</span> Reliable Air Conditioning</p>
+                        <p><span class="subtitle_number">-</span> Reliable Cooling Services</p>
                         <h1 class="sliding-header">Installation Services &amp; Repair</h1>
                         <div class="slide_button">
                             <a href="contact.html" class="btn-yellow">REQUEST A QUOTE</a>
@@ -155,7 +162,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p><span class="subtitle_number">02</span> Choos the Best Company</p>
+                        <p><span class="subtitle_number">02</span> Rely on Us!</p>
                         <h1 class="sliding-header">Heating and Air Conditioning Specialist</h1>
                         <div class="slide_button">
                             <a href="contact.html" class="btn-yellow">REQUEST A QUOTE</a>
@@ -174,7 +181,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <p><span class="subtitle_number">03</span> Quality that is Guaranteed</p>
-                        <h1 class="sliding-header">Expert Repair Ac and Heating Services</h1>
+                        <h1 class="sliding-header">Commercial Refrigeration Experts</h1>
                         <div class="slide_button">
                             <a href="contact.html" class="btn-yellow">REQUEST A QUOTE</a>
                         </div>
@@ -242,7 +249,7 @@
                     <div class="about_details">
                         <div class="hero-title-with-shape">
                             <h4 class="heading_with_border">About Us</h4>
-                            <h1>Heating and air conditioning repair and installation company</h1>
+                            <h1>HVAC company servicing the greater Hampton Roads area for over 25 years</h1>
                         </div>
                         <!--end .hero-title-with-shape-->
                         <p>TRACº Specialty Inc. has been dedicated to serving the residential and commercial sector of
@@ -330,7 +337,8 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="service_box">
                         <div class="service_img">
-                            <img src="assets/images/services/service-3.jpg" alt="service 3">
+                            <img id="refrigeration_repair_index" src="assets/images/refrigeration_repair.png"
+                                alt="service 3">
                             <div class="icon-box">
                                 <i class="icon-ac"></i>
                             </div>
@@ -497,7 +505,7 @@
 ===========================-->
     <section class="contact_form_area">
         <div class="contact_form_width">
-            <h1 class="contact_map_title text-center">We're not putting on airs - our work is guaranteed to satisfy.
+            <h1 id="contact_map_title">We're not putting on airs - our work is guaranteed to satisfy.
             </h1>
             <div id="map"></div>
 

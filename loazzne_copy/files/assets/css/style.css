@@ -152,6 +152,14 @@ h6 {
     padding: 0;
 }
 
+#contact_map_title {
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+
+}
+
 p {
     margin: 0;
     padding: 0;
@@ -328,9 +336,17 @@ body {
     padding: 0 40px;
 }
 
+#second_trac_logo {
+
+    max-width: 250px;
+    max-height: 65px;
+}
+
 .logo {
     display: inline-block;
     margin-top: 10px;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .header_area {
@@ -825,6 +841,20 @@ body {
 /*------------------------------------
 # .0 Feature Service
 ------------------------------------*/
+
+
+#refrigeration_repair {
+
+    max-height: 220px;
+    
+}
+
+
+#refrigeration_repair_index {
+
+    max-height: 220px;
+    
+}
 
 .feature_service_area {
     color: #ffffff;
@@ -1417,12 +1447,12 @@ section.about_area img.about_shape {
     width: 100%;
 }
 
-.service_details_contact h2 {
+.service_details_contact h3 {
     -webkit-box-flex: 4;
     -ms-flex: 4;
     flex: 4;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 30px;
 }
 
