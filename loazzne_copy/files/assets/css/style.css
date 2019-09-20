@@ -157,7 +157,6 @@ h6 {
     text-align: center;
     color: #ffffff;
     font-weight: 400;
-
 }
 
 p {
@@ -337,7 +336,6 @@ body {
 }
 
 #second_trac_logo {
-
     max-width: 250px;
     max-height: 65px;
 }
@@ -842,18 +840,12 @@ body {
 # .0 Feature Service
 ------------------------------------*/
 
-
 #refrigeration_repair {
-
     max-height: 220px;
-    
 }
 
-
 #refrigeration_repair_index {
-
     max-height: 220px;
-    
 }
 
 .feature_service_area {
@@ -921,7 +913,7 @@ body {
 ------------------------------------*/
 
 .about_image_box {
-    background: #aaaaaa url(../images/TRAC_VAN.jpg) center center no-repeat;
+    background: #aaaaaa url(../images/about-1.jpg) center center no-repeat;
     background-size: cover;
     position: relative;
     padding: 125px 0 125px 0;
@@ -1544,7 +1536,6 @@ section.about_area img.about_shape {
     padding: 38px 50px;
     border-left: 1px solid #f1f1f1;
     border-right: 1px solid #f1f1f1;
-    
 }
 
 .service_category ul li {
