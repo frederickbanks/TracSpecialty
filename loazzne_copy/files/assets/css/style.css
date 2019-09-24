@@ -48,6 +48,10 @@ a {
     transition: .3s;
 }
 
+a:hover {
+    color: #09aeb8;
+}
+
 ::-moz-selection {
     background-color: #38adb6;
     color: #ffffff;
@@ -185,7 +189,7 @@ body {
 }
 
 .section_padding {
-    padding: 120px 0;
+    padding: 80px 0;
 }
 
 .section_border {
@@ -407,6 +411,7 @@ body {
     font-size: 18px;
     font-weight: 600;
     padding: 25px 26px 15px 26px;
+    text-emphasis-color: color: #09aeb8;
 }
 
 .main_menu_area .nav.navbar-nav li a:hover {
@@ -563,10 +568,15 @@ body {
 }
 
 .main_menu_area .nav.navbar-nav li:hover ul.dropdown-menu {
+    color: #09aeb8;
     opacity: 1;
     visibility: visible;
     -webkit-transform: rotateX(0deg);
     transform: rotateX(0deg);
+}
+
+.main_menu_area.navbar-nav li:hover ul.dropdown-menu li a {
+    color: #09aeb8;
 }
 
 .main_menu_area .nav.navbar-nav li:hover ul.dropdown-menu li:nth-child(2) a {
