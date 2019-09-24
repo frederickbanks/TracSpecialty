@@ -956,13 +956,20 @@ body {
 
 .about_style_3_details h1 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .about_style_4_details i {
     font-size: 76px;
     color: #fadb81;
 }
+
+
+/* #about_style_3_details_id {
+    border: 1px solid gray;
+    border-collapse: separate;
+    border-spacing: 10px;
+} */
 
 
 /*------------------------------------
